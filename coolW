@@ -1,0 +1,8 @@
+local msgs = {
+    "Super Idol de xiaorong",
+   "Dou mei ni de tian,",
+    "Ba yue zhengwu de y gguang",
+    "Dou mei ni yaoyan","Re 'a 105 °C de ni,",
+    "Di di qingchun de zhengliushusi."
+}
+for i,v in pairs(msgs) do game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(v, 'All') wait(3) end
